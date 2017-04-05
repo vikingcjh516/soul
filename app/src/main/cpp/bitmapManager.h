@@ -1,0 +1,8 @@
+//
+// Created by chenjianhua on 2016/12/1.
+//
+
+#ifndef SOULPOWER_BITMAPMANAGER_H
+#define SOULPOWER_BITMAPMANAGER_H
+
+#endif //SOULPOWER_BITMAPMANAGER_H
