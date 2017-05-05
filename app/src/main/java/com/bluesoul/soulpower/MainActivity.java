@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.annotation.NonNull;
 
+import com.bluesoul.soulpower.test.SortTest;
+
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 | View.SYSTEM_UI_FLAG_FULLSCREEN
                 | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+
+        SortTest.testInsertSort();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

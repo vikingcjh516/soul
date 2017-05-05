@@ -39,7 +39,8 @@
             android:enabled="true"
             android:exported="false" />
 
-        <activity android:name=".test.BindingActivity"></activity>
+        <activity android:name=".test.BindingActivity" />
+        <activity android:name=".activity.TestSortActivity"></activity>
     </application>
 
 </manifest>
