@@ -20,6 +20,10 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
     private String gTestStr = null;
 
+    private int iTest = 0;
+
+    private int iTest222 = 0;
+
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
