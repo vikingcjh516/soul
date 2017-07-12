@@ -16,6 +16,7 @@ import android.support.annotation.NonNull;
 import com.bluesoul.soulpower.test.SortTest;
 
 import java.util.Calendar;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private String gTestStr = null;
@@ -151,4 +152,5 @@ public class MainActivity extends AppCompatActivity {
      */
     @NonNull
     public native String stringFromJNI();
+
 }
